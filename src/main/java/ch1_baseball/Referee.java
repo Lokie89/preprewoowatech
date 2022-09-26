@@ -5,6 +5,6 @@ package ch1_baseball;
  * @since 2022/09/22
  */
 public interface Referee {
-    // fixme parameter 를 안쓰는 방법?
+    // fixme Referee 의 judge 에 대한 return, parameter 타입을 너무 쉽게 명시했음, 좀더 생각해볼것
     boolean judge(String report);
 }
